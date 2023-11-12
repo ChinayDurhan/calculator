@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+    <title>calculator</title>
+    <link rel="shortcut icon" href="https://cdn2.iconfinder.com/data/icons/ios7-inspired-mac-icon-set/512/Calculator_512.png" type="image/x-icon">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+    <link rel="stylesheet" href="calci.css">
+</head>
+<body class="flex">
+    <div class="main flex">
+        <div class="left flex column g-20">
+            <div class="top flex">
+                <h1>CALCULATOR</h1>
+            </div>
+            <h4>select your calculator</h4>
+            <div class="buttons g-20">               
+                <div class="icons flex"><button><a href="calci.html"><i class="fi fi-br-calculator-simple"></i></a></button></div>
+                <div class="icons flex"><button><i class="fi fi-br-stats"></i></button></div>
+                <div class="icons flex"><button><a href="dollar.html"><i class="fi fi-br-dollar"></i></a></button></div>
+                <div class="icons flex"><button><i class="fi fi-sr-house-chimney"></i></button></div>
+                <div class="icons flex"><button><i class="fi fi-br-temperature-high"></i></button></div>
+                <div class="icons flex"><button><i class="fi fi-br-heart-rate"></i></button></div>
+                <div class="icons flex"><button><i class="fi fi-br-watch"></i></button></div>
+                <div class="icons flex"><button><i class="fi fi-br-coins"></i></button></div>
+            </div>
+            <div class="bottom">
+            </div>
+        </div>
+        <div class="right flex column g-20">
+            <h1 class="result" id="result">
+                
+            </h1>
+            <div class="condition g-10">
+                <button class="calculator_buttons flex" onclick="key('AC')">AC</button>
+                <button class="calculator_buttons flex" onclick="key('()')">( )</button>
+                <button class="calculator_buttons flex" onclick="key('%')">%</button>
+                <button class="calculator_buttons flex" onclick="key('/')">÷</button>
+                <button class="calculator_buttons flex" onclick="key('7')">7</button>
+                <button class="calculator_buttons flex" onclick="key('8')">8</button>
+                <button class="calculator_buttons flex" onclick="key('9')">9</button>
+                <button class="calculator_buttons flex" onclick="key('*')">x</button>
+                <button class="calculator_buttons flex" onclick="key('4')">4</button>
+                <button class="calculator_buttons flex" onclick="key('5')">5</button>
+                <button class="calculator_buttons flex" onclick="key('6')">6</button>
+                <button class="calculator_buttons flex" onclick="key('-')">-</button>
+                <button class="calculator_buttons flex" onclick="key('1')">1</button>
+                <button class="calculator_buttons flex" onclick="key('2')">2</button>
+                <button class="calculator_buttons flex" onclick="key('3')">3</button>
+                <button class="calculator_buttons flex" onclick="key('+')">+</button>
+                <button class="calculator_buttons flex zero" onclick="key('0')">0</button>
+                <button class="calculator_buttons flex" onclick="key('.')"> .</button>
+                <button class="calculator_buttons flex" onclick="key('=')"> =</button>
+            </div>
+        </div>
+    </div>
+    <script src="calci.js"></script>
+</body>
+</html>

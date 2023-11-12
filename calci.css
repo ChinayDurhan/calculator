@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    color: white;
+    font-family: sans-serif;
+}
+html,body{
+    height: 100vh;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.column{
+    flex-direction: column;
+}
+.main{
+    width: 80%;
+    height: 90%;
+    background: rgb(28,40,58);
+}
+.left{
+    width: 30%;
+    height: 100%;
+    background: rgb(15,22,35);
+}
+.right{
+    width: 70%;
+    height: 100%;
+    overflow: hidden;
+}
+.icons{
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    background-color: rgb(20,30,42);
+
+}
+button{
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+    background: transparent;
+    font-size: 160%;
+    color: white;
+}
+.g-20{
+    gap: 30px;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 60%;
+}
+.top{
+    height: 20%;
+}
+.bottom
+{
+    height: 10%;
+}
+.calculator_buttons{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(52,66,87);
+    font-size: larger;
+}
+.condition{
+    font-size: x-large;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.zero{
+    grid-column: 1/3;
+    width: 160px !important;
+}
+.result{
+    width: 330px;
+    height: 60px;
+}
+.g-10{
+    gap: 15px;
+}
+#result{
+    text-align: right;
+    font-weight: 400;
+    font-size: 55px;
+    overflow: hidden;
+}

@@ -1,0 +1,37 @@
+.condition1{
+    background-color: #4A5262;
+    width: 80%;
+    height: 70%;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: all .1s ease-in-out ;
+}
+.condition1:hover{
+    box-shadow: 0 0 15px 1px rgb(52,66,87);
+    transform: scale(1.01);
+
+}
+.textfield{
+    width: 80%;
+    height: 70%;
+    background: rgb(52,66,87);
+    box-shadow: 0 0 15px 1px rgb(20,30,42);
+}
+input{
+    outline: none;
+    padding: 10px;
+    height: 40px;
+    width: 190px;
+    border-radius: 7px;
+    background: rgb(52,66,87);
+    font-size: x-large;
+    border: 1px solid #4A5262;
+}
+select,option{
+    outline: none;
+    height: 40px;
+    width: 190px;
+    border-radius: 7px;
+    background: rgb(52,66,87);
+    border: 1px solid #4A5262;
+}
